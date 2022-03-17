@@ -1,1 +1,1 @@
-# nfyb_project
+# reguloators prediction of human terminal erythropoiesis
