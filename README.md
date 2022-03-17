@@ -1,4 +1,4 @@
-# reguloators prediction of human terminal erythropoiesis
+# regulators prediction of human terminal erythropoiesis
 数据来源：
 
 data source:
