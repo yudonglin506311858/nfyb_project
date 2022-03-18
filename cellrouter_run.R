@@ -2,6 +2,8 @@ sudo R
 [sudo] password for ydl: 
 R version 3.4.3
 
+dir.create("results")
+dir.create("results/paths")
 #run this script in linux system and oracle java
 source('/data/yudonglin/nopro/Cellrouter/cellrouter/CellRouter_Class.R')
 libdir <- '/data/yudonglin/nopro/Cellrouter/cellrouter/CellRouter/'
