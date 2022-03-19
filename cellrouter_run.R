@@ -68,6 +68,8 @@ dev.off()
 filename <- "results/paths/cell_edge_weighted_network.txt"
 write.table(cellrouter@graph$edges,file=filename,sep='\t',row.names=FALSE,col.names = FALSE,quote=FALSE) #input network
 saveRDS(cellrouter,"cellrouter.RDS")
+
+cellrouter<-readRDS("cellrouter.RDS")
 ##select starting subpopulation,all other subpopulations are targets
 sources <- c('SP_9') #from SP_9 to SP_16
 targets <- setdiff(as.vector(cellrouter@sampTab$population),sources)
